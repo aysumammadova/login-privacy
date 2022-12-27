@@ -1,0 +1,135 @@
+section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+section .border {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+  background: rgba(203, 151, 160, 0.2);
+  gap: 30px;
+}
+section .border .none-register a {
+  text-decoration: none;
+  color: #000;
+}
+section .border .choose {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+section .border .choose .choose-login {
+  padding: 10px 30px;
+}
+section .border .choose .choose-register {
+  padding: 10px 30px;
+}
+section .border .choose button {
+  border: none;
+  background-color: none;
+  font-size: 15px;
+  color: gray;
+}
+section .border .choose button:hover {
+  cursor: pointer;
+  background-color: rgb(231, 163, 237);
+}
+section .border .login--info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .border .login--info input {
+  border: none;
+  padding: 15px;
+  background: rgb(214, 212, 212);
+  outline: none;
+}
+section .border .login--info input:hover {
+  cursor: pointer;
+  background-color: #fff;
+  outline: none;
+}
+section .border .login--info .login-btn {
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: rgba(72, 72, 72, 0.1);
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  line-height: normal;
+}
+section .border .login--info .login-btn:hover {
+  background: #ba958b;
+}
+section .border .login--info .forgot {
+  text-decoration: none;
+  color: darkred;
+  transition: 0.3s;
+}
+section .border .login--info .forgot:hover {
+  color: black;
+  cursor: pointer;
+}
+section .border .register--info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section .border .register--info input {
+  border: none;
+  padding: 15px;
+  background: rgb(214, 212, 212);
+  outline: none;
+}
+section .border .register--info input:hover {
+  cursor: pointer;
+  background-color: #fff;
+  outline: none;
+}
+section .border .register--info .checkbox {
+  display: flex;
+  align-items: flex-start;
+}
+section .border .register--info .checkbox input {
+  margin-top: 20px;
+}
+section .border .register--info .register-btn {
+  border: 1px solid transparent;
+  color: #fff;
+  background-color: rgba(72, 72, 72, 0.1);
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  line-height: normal;
+}
+section .border .register--info .register-btn:hover {
+  background: #ba958b;
+}
+
+.hidden {
+  display: none !important;
+}/*# sourceMappingURL=login.css.map */

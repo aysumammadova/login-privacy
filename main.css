@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+header .login {
+  padding: 15px 40px;
+  color: #fff;
+  background-color: #c93636;
+  border-radius: 5px;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+}
+footer .footer--info {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  margin-left: 53%;
+  margin-right: 30px;
+}
+footer .footer--info .rules a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+footer .footer--info .rules a:hover {
+  cursor: pointer;
+  color: blue;
+}
+footer .footer--info .security a {
+  text-decoration: none;
+  color: #000;
+}
+footer .footer--info .security a:hover {
+  cursor: pointer;
+  color: blue;
+}
+footer .footer--info .about {
+  color: rgb(82, 78, 78);
+}
+
+button {
+  border: none;
+  background-color: #fff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.rules--popup {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #edcbe9;
+  padding: 0 20px;
+  gap: 10px;
+}
+.rules--popup .image-cancel {
+  margin-bottom: 40px;
+  margin-left: 280px;
+  background: white;
+}
+.rules--popup .image-cancel-1:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
